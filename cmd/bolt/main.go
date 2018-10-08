@@ -6,6 +6,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"github.com/ChenYang-Zhao/bolt"
 	"io"
 	"io/ioutil"
 	"math/rand"
@@ -18,8 +19,6 @@ import (
 	"unicode"
 	"unicode/utf8"
 	"unsafe"
-
-	"github.com/boltdb/bolt"
 )
 
 var (
